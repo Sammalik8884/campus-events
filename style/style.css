@@ -201,3 +201,79 @@ footer {
         font-size: 1.1rem;
     }
 }
+
+/* --- Contact Page Specific Styles (Added by Member 4) --- */
+.contact-section {
+    padding: 60px 20px 80px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr; /* Form takes up slightly more space */
+    gap: 30px;
+    align-items: start;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-family: var(--font-stack);
+    font-size: 1rem;
+    background-color: var(--bg-light);
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background-color: var(--bg-white);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-btn {
+    display: block;
+    background-color: var(--bg-light);
+    color: var(--primary-color);
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
