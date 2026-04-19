@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Destinations | Local Tourism</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">🌍 VisitPakistan</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destination.html" class="active">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero destination-hero">
+    <div class="hero-content">
+      <h1>Explore Our Destinations</h1>
+      <p>Discover breathtaking places across Pakistan</p>
+    </div>
+  </header>
+
+  <!-- University Introduction -->
+  <section class="section university-intro">
+    <div class="container">
+      <h2>About Our University</h2>
+      <p>
+        This project is developed by students of <strong>[Your University Name]</strong>,
+        Department of Computer Science, as part of the DevOps Fundamentals course (Spring 2026).
+        We aim to promote local tourism through modern web and DevOps technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Team Introduction -->
+  <section class="section team-intro">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <div class="team-grid">
+
+        <div class="team-card lead">
+          <div class="avatar">👨‍💻</div>
+          <h3>Usman Ali</h3>
+          <span class="badge">Team Lead</span>
+          <p>Responsible for repository setup, Dockerfile, and final deployment.</p>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">🧑‍💻</div>
+          <h3>Muhammad Usama</h3>
+          <span class="badge member">Member 1</span>
+          <p>Developed the Destinations page showcasing tourism spots.</p>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">👩‍💻</div>
+          <h3>Muhammad Hannan Khalid</h3>
+          <span class="badge member">Member 2</span>
+          <p>Developed the Packages page with event listings.</p>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">🧑‍🎨</div>
+          <h3>Syed Albar Hussain</h3>
+          <span class="badge member">Member 3</span>
+          <p>Developed the Gallery page with past event images.</p>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">👨‍🎤</div>
+          <h3>Yasir Masood</h3>
+          <span class="badge member">Member 4</span>
+          <p>Developed the Contact page with forms and social links.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Destination Highlights -->
+  <section class="section destinations">
+    <div class="container">
+      <h2>Top Destinations</h2>
+      <div class="dest-grid">
+
+        <div class="dest-card">
+          <h3>🏔️ Hunza Valley</h3>
+          <p>A paradise in the north with stunning mountain views and rich culture.</p>
+        </div>
+
+        <div class="dest-card">
+          <h3>🕌 Lahore</h3>
+          <p>The cultural capital of Pakistan with Mughal architecture and vibrant food.</p>
+        </div>
+
+        <div class="dest-card">
+          <h3>🏖️ Gwadar</h3>
+          <p>A coastal gem on the Arabian Sea with serene beaches and seafood.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 VisitPakistan | Developed by [Your University Name] DevOps Team</p>
+  </footer>
+
+</body>
+</html>
